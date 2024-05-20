@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+}
+
+ul li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rebeccapurple;
+    flex-basis: 200;
+    height: 200px;
+    flex-grow: 1;
+    max-width: 40%;
+    padding: 3%;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    height: 100vh;
+    margin-inline: 5%;
+}
+
+a {
+    color: white;
+    font-size: 24px;
+    text-wrap: wrap;
+    text-align: center;
+}
